@@ -13,8 +13,8 @@ function happyHolidayTo(holiday, name){
 
 function holidayCountdown(holiday, days){
   if (days === 1){
-    return "It's 1 day until ${holiday}!"
+    return `It\'s 1 day until ${holiday}!`
   } else {
-    return "It's ${days} days until ${holiday}!"
+    return `It\'s ${days} days until ${holiday}!`
   }
 }
